@@ -1,0 +1,9 @@
+.friends{
+    text-align: center;
+    background-color: #fafafa;
+    padding: 15px 0px;
+}
+
+.friends-name-link i{
+    color: rgba(0, 0, 0, 0.3);
+}
