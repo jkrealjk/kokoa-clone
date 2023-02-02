@@ -1,3 +1,9 @@
+.user-component{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .user-component__column{
     display: flex;
 }
@@ -17,4 +23,9 @@
 .user-component__name{
     font-weight: 600;
     font-size: 22px;
+}
+
+.user-component__photo--xl{
+    width: 80px;
+    height: 80px;
 }

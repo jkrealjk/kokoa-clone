@@ -2,8 +2,19 @@
     text-align: center;
     background-color: #fafafa;
     padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .friends-name-link i{
     color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen{
+    padding: 0px 25px;
+}
+
+.friends-screen__channel{
+    display: flex;
+    justify-content: space-between;
 }
