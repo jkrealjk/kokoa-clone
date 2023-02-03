@@ -16,8 +16,9 @@
 }
 
 .user-component__text{
-    display: flex;
-    align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .user-component__name{
@@ -42,4 +43,9 @@
 
 .user-component__column:last-child{
     color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__subtitle{
+    display: flex;
+    flex-direction: column;
 }
