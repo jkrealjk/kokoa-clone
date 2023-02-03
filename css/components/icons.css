@@ -1,0 +1,15 @@
+.icons-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons__column i{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
