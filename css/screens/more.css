@@ -35,7 +35,7 @@
 .more-suggestions__icons__column i{
     width: 60px;
     height: 60px;
-    background-color: yellow;
+    background-color: var(--yellow);
     display: flex;
     justify-content: center;
     align-items: center;

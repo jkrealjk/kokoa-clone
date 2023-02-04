@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat - kokoa talk</title>
+    <title>Setting - kokoa talk</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -21,39 +21,45 @@
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
-
-    <header class="screen-header">
-        <div class="screen-header__column">
-            <h1 class="screen-header__title">Chats</h1>
+    
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html"><i class="fa-solid fa-chevron-left fa-2x"></i></a>
         </div>
-        <div class="screen-header__column">
-            <div class="screen-header__icons">
-                <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-                <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
-                <span><i class="fa-solid fa-music fa-lg"></i></span>
-                <span>
-                    <a href="setting.html">
-                        <i class="fa-solid fa-gear fa-lg"></i>
-                    </a>
-                </span>
-            </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
         </div>
     </header>
-    
+
     <main class="main-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__photo" src="https://extrachill.com/wp-content/uploads/2021/06/wu-tang-logo.jpeg" alt="">
-                <div class="user-component__text">
-                    <h4 class="user-component__name">Jkkkkkk</h4>
-                    <h6 class="user-component__subtitle">Please check my kokoa Account info</h6>
+        <ul class="settings-list">
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <span>Notices</span>
                 </div>
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                <span class="badge">1</span>
-            </div>
-        </div>
+                <div class="settings-setting__column"></div>
+            </li>
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fa-solid fa-flask"></i>
+                    <span class="settings-setting__title">Kokoa Lab</span>
+                </div>
+                <div class="settings-setting__column">
+                    <span>Latest Verison</span>
+                </div>
+            </li>
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <span>Version</span>
+                </div>
+                <div class="settings-setting__column"></div>
+            </li>
+        </ul>  
     </main>
 
     <nav class="nav">
@@ -66,7 +72,7 @@
             <li class="nav__li">
                 <a class="nav__a" href="chats.html">
                     <span class="nav__notification badge">1</span>
-                    <i class="fa-solid fa-comment fa-2x"></i>
+                    <i class="far fa-comment fa-2x"></i>
                 </a>
             </li>
             <li class="nav__li">
