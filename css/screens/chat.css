@@ -80,3 +80,53 @@
 .message-row--own .message-row__info{
     flex-direction: row-reverse;
 }
+
+.reply{
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.reply .reply__column:first-child{
+    width: 10%;
+}
+.reply .reply__column:last-child{
+    width: 90%;
+    display: flex;
+}
+
+.reply input{
+    height: 30px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.reply__column__right{
+    display: flex;
+}
+
+.reply__column__right .fa-face-smile-wink{
+    position: absolute;
+    top: 12px;
+    right: 70px;
+    font-size: 20px;
+}
+
+.reply__column__right button{
+    position: absolute;
+    top: 9px;
+    right: 28px;
+    background-color: var(--yellow);
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
