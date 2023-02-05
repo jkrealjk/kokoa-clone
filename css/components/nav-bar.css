@@ -17,10 +17,23 @@
     position: relative;
 }
 
+@keyframes notificationAnimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px) rotateY(180deg); 
+    }
+    100%{
+        transform: none;
+    }
+}
+
 .nav__notification{
     position: absolute;
     right: -15px;
     bottom: 15px;
+    animation: notificationAnimation 2s  ease-in-out infinite;
 }
 
 .nav__dot{
@@ -31,4 +44,32 @@
     position: absolute;
     left: 28px;
     bottom: 28px;
+}
+
+@keyframes appearBtnAnimation{
+    from{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.nav__li{
+    opacity: 0;
+    animation: appearBtnAnimation 1s ease-in-out forwards;
+}
+
+.nav__li:nth-child(2){
+    animation-delay: 0.5s;
+}
+
+.nav__li:nth-child(3){
+    animation-delay: 0.7s;
+}
+
+.nav__li:last-child{
+    animation-delay: 1s;
 }
